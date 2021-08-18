@@ -18,5 +18,7 @@
 ---
 # Circuit Diagram
 ![2bitparitygenerator](https://user-images.githubusercontent.com/88282645/129913480-be60ff7c-3cf3-469e-adec-d39badb20ae8.png)
-
+---
+# Waveform
+![paritygenwaveform](https://user-images.githubusercontent.com/88282645/129925370-cd83a529-b1e1-490a-8e81-cb7348484a74.png)
 
