@@ -1,6 +1,7 @@
 # Design-of-2-bit-even-and-odd-parity-generator-using-pseudo-NMOS-logic-under-skywater130-technology <br/>
 ---
 # Parity generator <br/>
+
  Parity generator is a combination logic circuit. When data
 is transmitted between source and destination there should
 not be any loss in data. To detect data losses parity generator
@@ -15,14 +16,7 @@ ones else zero.<br/>
 ---
 # Pseudo NMOS logic<br/>
 
-Pseudo NMOS logic is a type
-of static cmos logic where complementary output is driven
-between Vdd and ground. This complementary output can
-be normalized by cascading an inverter to it. In this logic
-the number of transistors required is N plus 1 where N is the
-number of inputs. A complete logical expression is implemented using NMOS transistors with one PMOS transistor
-which is grounded . Vdd is given to the source terminal in
-pmos. As this logic is more prone to static power decipation to avoide this size of pmos will be made smaller than nmos. <br/>
+Pseudo NMOS logic is a type of static cmos logic where complementary output is driven between Vdd and ground. This complementary output can be normalized by cascading an inverter to it. In this logic the number of transistors required is N plus 1 where N is the number of inputs. A complete logical expression is implemented using NMOS transistors with one PMOS transistor which is grounded . Vdd is given to the source terminal in pmos. As this logic is more prone to static power decipation to avoide this size of pmos will be made smaller than nmos. <br/>
 ---
 # Implementation of parity generator using pseudo nmos logic<br/>
 
@@ -36,8 +30,8 @@ with one output PARITY BIT. The type of parity generator is choosen by baising D
 DCunderscoreB is high odd parity is generated. If DCunderscoreB is low then even parity is generated. Odd parity
 denotes ODD PARITY BIT and even parity denotes EVEN
 PARITY BIT. Expression for ODD PARITY BIT is equal to
-A XNOR B. Expression for EVEN PARITY BIT is equal to
-A XOR B. Pin 1 is A Pin 2 is D which is B bar pin 3 is C
+~(A^B). Expression for EVEN PARITY BIT is equal to
+A^B. Pin 1 is A Pin 2 is D which is B bar pin 3 is C
 which is Abar pin 4 is B pin 5 is DCunderscoreD pin 6 is
 vdd pin 7 is DCunderscoreB and pin 8 is PARITY BIT. We
 can get output plot from 8th pin.<br/>
