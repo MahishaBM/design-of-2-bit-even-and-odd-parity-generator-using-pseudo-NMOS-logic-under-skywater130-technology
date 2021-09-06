@@ -2,7 +2,7 @@
 ---
 # Tool
  > eSim
-# Technolog
+# Technology
  > skywater130 pdk
 # Parity generator <br/>
  *Parity generator is a combination logic circuit. When data is transmitted between source and destination there should not be any loss in data. To detect data losses parity generator technique is used in transmitter end. Parity is the extra bit added to digital data on transmission. There are two types of parity generator even parity generator and odd parity generator.Even parity generator look for even number of ones in binary data here parity bit is one when it detect odd number of ones else it is zero. Odd parity look for odd number of ones in binary data here parity bit is one when it detect even number of ones else zero*.<br/>
